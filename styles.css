@@ -1,5 +1,53 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 25px;
+  margin: 0;
 }
 
+/* Navbar */
+
+.navbar {
+  padding: 20px;
+  margin: 0;
+}
+
+.navlinks {
+  display: flex;
+  position: sticky;
+  float: right;
+  padding: 20px;
+  word-spacing: 50px;
+
+  background-color: black;
+  color: white;
+}
+
+/* Main container */
+
+/* Container 1 */
+.main-container {
+  display: flexbox;
+
+}
+
+.bg-image img {
+  width: 50%;
+  height: auto;
+}
+
+/* Container 2 */
+.side-news-container {
+  display: flexbox;
+  position: relative;
+
+  float: right;
+  
+  border: 2px solid black;
+}
+
+/* Container 3 */
+
+.mini-headlines-container {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  grid-gap: 25px;
+}
