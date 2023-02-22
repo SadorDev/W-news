@@ -19,7 +19,6 @@
 <body>
   <nav class="navbar">
     <img src="./assets/images/logo.svg" alt="logo" />
-
     <div class="navlinks hamburger" onclick="toggleMobileMenu(this)">
       Home
       New
@@ -27,85 +26,80 @@
       Trending
       Categories
     </div>
-
-
-
-
-    <div class="overlay"></div>
   </nav>
 
-  <section id="headline">
-    <div class="main-container">
-      <div class="left-grid">
-        <img src="assets/images/image-web-3-desktop.jpg" alt="headline-image">
+  <main id="main-container">
 
-        <div class="bottom-left-grid">
-          <h1> The Bright Future of Web 3.0?</h1>
-          <p> We dive into the next evolution of the Web
-            that claims to put the power of the platforms back into the hands of the people.
-            But is it really fulfilling its promise? </p>
-          <button>Read More</button>
+    <section class="main-content">
+      <img src="assets/images/image-web-3-desktop.jpg" class="banner" alt="headline-image">
 
-
-        </div>
-      </div>
-      <div class="right-grid">
-        <h1>New</h1>
-
-        <h3> Hydrogen VS Electric Cars</h3>
-        <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
-
-        <hr>
-
-        <h3> The Downsides of AI Artistry </h3>
-        <p>What are the possible adverse effects of on-demand AI image generation?</p>
-
-        <hr>
-
-        <h3> Is VC Funding Drying Up </h3>
-        <p>Private funding by VC firms is down by 50% YOY. We take a look at what it means.</p>
-
-      </div>
-    </div>
-    <div class="second-container">
-      <aside>
-        <section>
-          <div class="second-grid">
-            <h3>01</h3>
-            <h3>Reviving Retro PCs</h3>
-            <p> What happens when old PCs are given modern upgrades? </p>
-            <img src="assets\images\image-retro-pcs.jpg" alt="Retro" />
-          </div>
-
-          <div class="second-grid">
-            <h3>02</h3>
-            <h3>Top 10 Laptops of 2022</h3>
-            <p> Our best picks for various needs and budgets. </p>
-            <img src="assets\images\image-top-laptops.jpg" alt="Retro" />
-          </div>
-
-          <div class="second-grid">
-            <h3>03</h3>
-            <h3>The Growth of Gaming</h3>
-            <p> How the pandemic has sparked fresh opportunities </p>
-            <img src="assets\images\image-gaming-growth.jpg" alt="Retro" />
-          </div>
-        </section>
+      <aside class="sidebar">
+        <article class="sidebar-text">
+          <h1>New</h1>
+          <h4> Hydrogen VS Electric Cars</h4>
+          <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+          <h4> The Downsides of AI Artistry </h4>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr>
+          <h4> Is VC Funding Drying Up </h4>
+          <p>Private funding by VC firms is down by 50% YOY. We take a look at what it means.</p>
+        </article>
       </aside>
 
+      <!-- The Bright future of Web.30 -->
+      <article class="bottom-left-grid">
+        <h1> The Bright Future of Web 3.0?</h1>
+        <button>READ MORE</button>
+        <p> We dive into the next evolution of the Web
+          that claims to put the power of the platforms back into the hands of the people.
+          But is it really fulfilling its promise? </p>
+      </article>
 
-    </div>
-
+      
+      
+      
+      
+      <section id="list">
+      
+      <ol class="list">
+        <li class="list-item">
+          <img src="assets\images\image-retro-pcs.jpg" alt="Retro" class="list-item_image" />
+          <div class="list-item-content">
+            <h3 class="list-item-header">01</h3>
+            <h3 class="list-item-header">Reviving Retro PCs</h3>
+            <p class="list-item-description"> What happens when old PCs are given modern upgrades? </p>
+          </div>
+        </li>
+        <li class="list-item">
+          <img src="assets\images\image-top-laptops.jpg" alt="Top Laptop" class="list-item_image" />
+          <div class="list-item-content">
+            <h3 class="list-item-header">02</h3>
+            <h3 class="list-item-header">Top 10 Laptops of 2022</h3>
+            <p class="list-item-description"> Our best picks for various needs and budgets. </p>
+          </div>
+        </li>
+        <li class="list-item">
+          <img src="assets\images\image-gaming-growth.jpg" alt="Gaming Growth" class="list-item_image" />
+          <div class="list-item-content">
+            <h3 class="list-item-header">03</h3>
+            <h3 class="list-item-header">The Growth of Gaming</h3>
+            <p class="list-item-description"> How the pandemic has sparked fresh opportunities </p>
+          </div>
+        </li>
+      </ol>
+      
+    </section>
 
   </section>
-
   </main>
-
-
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  <!-- <footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Sador Zerezghi</a>.
-  </div> -->
+  </footer> -->
+
+
+
   <script src="script.js"> </script>
 </body>
 
